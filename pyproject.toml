@@ -1,0 +1,16 @@
+[project]
+name = "befundlogik"
+version = "0.0.1"
+description = "Pruefbare Regeln fuer Laborwerte als offener Baustein"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Mark Wernsdorfer" }]
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
